@@ -1,13 +1,16 @@
 [project]
 name = "dockerhandlermcp"
 version = "0.1.0"
-description = "Add your description here"
+description = "MCP project for DockHandler project"
 readme = "README.md"
 authors = [
-    { name = "Ossy", email = "email" }
+    { name = "Ossy" }
 ]
 requires-python = ">=3.15"
-dependencies = []
+dependencies = [
+    "fastmcp>=4.2.4",
+    "httpx>=0.28.1",
+]
 
 [project.scripts]
 dockerhandlermcp = "dockerhandlermcp:main"
