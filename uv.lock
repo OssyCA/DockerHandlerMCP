@@ -228,12 +228,14 @@ source = { editable = "." }
 dependencies = [
     { name = "fastmcp" },
     { name = "httpx" },
+    { name = "truststore" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "fastmcp", specifier = ">=4.2.4" },
     { name = "httpx", specifier = ">=0.28.1" },
+    { name = "truststore", specifier = ">=0.10.5" },
 ]
 
 [[package]]
